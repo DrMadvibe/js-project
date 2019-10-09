@@ -4,6 +4,6 @@ import ReactDom from 'react-dom';
 import Button from './Button';
 
 ReactDom.render(
-	<Button />,
+	<Button type='submit' />,
 	document.getElementById('app')
 );
