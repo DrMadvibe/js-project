@@ -5,5 +5,5 @@ import Button from './Button';
 
 ReactDom.render(
 	<Button />,
-	document.getElementId('app')
+	document.getElementById('app')
 );
