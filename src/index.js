@@ -1,5 +1,2 @@
-const sayHello = () => {
-  console.log("Hello World")
-}
-
-sayHello()
+import React from 'react';
+import ReactDom from 'react-dom';
