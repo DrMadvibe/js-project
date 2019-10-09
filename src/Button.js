@@ -1,15 +1,8 @@
 import React from 'react'
 
-const Button = (props) => {
-  
-  // Props can be listed here
-  const {
-    type = '',
-	propTwo,
-	propThree } = props
-  
+const Button = ({ type='button' }) => {
   return (
-    <button type={type} propTwo={propTwo} propThree={propThree}>Button</button>
+    <button type={type}>Button</button>
   )
 }
 
