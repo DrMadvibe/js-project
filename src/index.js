@@ -4,6 +4,6 @@ import ReactDom from 'react-dom';
 import Button from './Button';
 
 ReactDom.render(
-	<Button>Sign in</Button>,
+	<Button url="https://www.hastingsdirect.com">Hastings Direct</Button>,
 	document.getElementById('app')
 );
